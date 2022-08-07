@@ -10,9 +10,10 @@ const list = document.getElementById('list');
 const addButton = document.getElementById('add-new');
 const contactButton = document.getElementById('contact');
 const formAdd = document.querySelector('.form-add');
+const dateTime = document.querySelector('.dateTime');
 const isClicked = false;
 
 export {
   bookContainer, AddBookForm, bookTitle, bookAuthor, error, viewBook, addBook,
-  contact, list, addButton, contactButton, formAdd, isClicked
+  contact, list, addButton, contactButton, formAdd, isClicked, dateTime
 };

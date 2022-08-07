@@ -1,7 +1,8 @@
 import { AddBookForm, bookTitle, bookAuthor, error, viewBook, addBook,
-  contact, list, addButton, contactButton, formAdd, isClicked
+  contact, list, addButton, contactButton, formAdd, isClicked, dateTime
 } from './modules/htmlElements.js';
 import Book from './modules/bookClass.js';
+import luxon from './modules/luxon.js';
 
 const books = new Book();
 
@@ -61,4 +62,5 @@ AddBookForm.addEventListener('submit', (e) => {
     error.innerHTML = '';
   }
 });
+dateTime.innerText = luxon.DateTime.now().setLocale('en-US').toLocaleString(luxon.DateTime.DATETIME_FULL_WITH_SECONDS);
 window.onload = books.render();

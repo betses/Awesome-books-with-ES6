@@ -227,6 +227,11 @@ footer {
   color: #777;
   text-align: center;
 }
+.dateTime {
+  display: flex;
+  justify-content: end;
+  margin: 10px 35px;
+}
 
 @media (max-width: 767px) {
   nav {
