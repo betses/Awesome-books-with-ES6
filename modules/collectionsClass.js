@@ -21,4 +21,4 @@ class Collections {
   }
 }
 
-export default Collections ;
+export default Collections;

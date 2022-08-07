@@ -15,5 +15,5 @@ const isClicked = false;
 
 export {
   bookContainer, AddBookForm, bookTitle, bookAuthor, error, viewBook, addBook,
-  contact, list, addButton, contactButton, formAdd, isClicked, dateTime
+  contact, list, addButton, contactButton, formAdd, isClicked, dateTime,
 };

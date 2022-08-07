@@ -1,5 +1,6 @@
-import { AddBookForm, bookTitle, bookAuthor, error, viewBook, addBook,
-  contact, list, addButton, contactButton, formAdd, isClicked, dateTime
+import {
+  AddBookForm, bookTitle, bookAuthor, error, viewBook, addBook,
+  contact, list, addButton, contactButton, formAdd, isClicked, dateTime,
 } from './modules/htmlElements.js';
 import Book from './modules/bookClass.js';
 import luxon from './modules/luxon.js';

@@ -1,6 +1,4 @@
-import {
-  bookContainer
-} from './htmlElements.js';
+import { bookContainer } from './htmlElements.js';
 import Collections from './collectionsClass.js';
 
 const collections = new Collections();
@@ -65,4 +63,4 @@ class Book {
   }
 }
 
-export default Book ;
+export default Book;
