@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="title">
+        <a href="#">Awesome Books</a>
+      </div>
+      <ul class="nav-ul">
+        <li><a href="#" id="list">List</a></li>
+        <li><a href="#" id="add-new">Add New</a></li>
+        <li><a href="#" id="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="section" id="books-section">
+    <div class="body-container">
+      <div class="background">
+        <h1>All Awesome books</h1>
+      </div>
+      
+      <div class="book-container">
+      </div>
+    </div>
+  </section>
+  <section class="section" id="add-section">
+    <div class="body-container">
+      <form class="book-form">
+        <div class="background">
+          <h2 class="title-text">Add a new book</h2>
+        </div>
+        <p class="form-add"></p>
+        <div class="form-group">
+          <label for="title"></label>
+          <input type="text" id="title" placeholder="Title">
+        </div>
+        <div class="form-group">
+          <label for="author"></label>
+          <input type="text" id="author" placeholder="Author">
+          <p class="error"></p>
+        </div>
+        <button type="submit" class="add-button">Add</button>
+      </form>
+    </div>
+  </section>
+  <section class="section" id="contact-section">
+    <div class="body-container">
+        <div class="background">
+          <h2 class="title-text2">Contact Information</h2>
+        </div>
+        <div class="contact-subtitle">
+          <h2>Do have any questions or you just want to say "Hello"? <br> You can reach out to us!</h2>
+        </div>
+        <ul class="contact-detail">
+          <li>Our email: mail@mail.com</li>
+          <li>Our Phone Number 00432312331322</li>
+          <li>Our Adress StreetName 22,84503 City, Country</li>
+        </ul>
+    </div>
+  </section>
+  <footer>
+    <p>Copyrights<sup>&copy;</sup> 2022<i class="fas fa-heart"></i></p>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
