@@ -9,17 +9,17 @@ class Book {
     this.timeStamp = Book.timeStamp();
   }
 
-  addBook() {
+  addBook = () => {
     collections.addBook(this);
     this.render();
   }
 
-  static timeStamp() {
+  static timeStamp = () => {
     const date = new Date();
     return date.getMinutes();
   }
 
-  render() {
+  render = () => {
     bookContainer.innerHTML = '';
     if (collections.getBooks().length === 0) {
       bookContainer.innerHTML = '<p class="empty">No books in your collection</p>';

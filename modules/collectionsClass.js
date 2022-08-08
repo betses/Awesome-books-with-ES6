@@ -3,16 +3,16 @@ class Collections {
     this.collections = JSON.parse(localStorage.getItem('collections')) || [];
   }
 
-  addBook(book) {
+  addBook = (book) => {
     this.collections.push(book);
     localStorage.setItem('collections', JSON.stringify(this.collections));
   }
 
-  removeBook(index) {
+  removeBook = (index) => {
     this.collections.splice(this.collections[index], 1);
   }
 
-  getBooks() {
+  getBooks = () => {
     const reversed = [];
     for (let i = this.collections.length - 1; i >= 0; i -= 1) {
       reversed.push(this.collections[i]);

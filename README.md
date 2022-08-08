@@ -34,11 +34,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@betses](https://github.com/betses)
 - Twitter: [@Betse_s](https://twitter.com/Betse_s)
 
-👤 **Author2**
-
-- GitHub: [@niicode](https://github.com/niicode)
-- Twitter: [@_niicode](https://twitter.com/_niicode)
-
 
 ## 🤝 Contributing
 
